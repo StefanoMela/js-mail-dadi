@@ -25,5 +25,5 @@ if (userNumber > computerNumber) {
 
 } else {
 
-    results.innerHTML = "Peccato, l' IA ha vinto ancora..."
+    results.innerHTML = "Peccato, il computer ha vinto ancora..."
 };
