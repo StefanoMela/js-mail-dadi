@@ -22,9 +22,12 @@ if (userNumber > computerNumber) {
 
     results.innerHTML = "Bravo, hai battuto una macchina ! (Che culo..)"
 
-} else {
+} else if (computerNumber > userNumber){
 
     results.innerHTML = "Peccato, il computer ha vinto ancora..."
+} else if (computerNumber === userNumber) {
+
+    results.innerHTML = "Sei fortunato, qua il banco non vince sempre.. riprova"
 };
 
 
