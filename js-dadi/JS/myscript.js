@@ -12,22 +12,21 @@ const results = document.getElementById("results");
 
 // SCRITTURA NUMERI CASUALI NEGLI APPOSITI BOX
 
-userBox.innerHTML = userNumber;
-machineBox.innerHTML = computerNumber;
-
+userBox.innerText = userNumber;
+machineBox.innerText = computerNumber;
 
 // IF CHE CERTIFICA CHI VINCE
 
 if (userNumber > computerNumber) {
 
-    results.innerHTML = "Bravo, hai battuto una macchina ! (Che culo..)"
+    results.innerText = "Bravo, hai battuto una macchina ! (Che culo..)"
 
 } else if (computerNumber > userNumber){
 
-    results.innerHTML = "Peccato, il computer ha vinto ancora..."
+    results.innerText = "Peccato, il computer ha vinto ancora..."
 } else {
 
-    results.innerHTML = "Sei fortunato, qua il banco non vince sempre.. riprova"
+    results.innerText = "Sei fortunato, qua il banco non vince sempre.. riprova"
 };
 
 
