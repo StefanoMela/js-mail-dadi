@@ -25,7 +25,7 @@ if (userNumber > computerNumber) {
 } else if (computerNumber > userNumber){
 
     results.innerHTML = "Peccato, il computer ha vinto ancora..."
-} else if (computerNumber === userNumber) {
+} else {
 
     results.innerHTML = "Sei fortunato, qua il banco non vince sempre.. riprova"
 };
